@@ -21,7 +21,7 @@ class PinkButton extends Component
         width:130,
         height:40,
         borderRadius:10,        
-}} >
+}} onPress = {this.displayAlert} >
  <Text> Sound Button </Text>
      </TouchableOpacity >
     );
@@ -53,7 +53,7 @@ class BlueButton extends Component
         width:130,
         height:40,
         borderRadius:10,        
-}}>
+}} onPress = {this.displayAlert}>
  <Text> Sound Button </Text>
      </TouchableOpacity>
     );
@@ -80,7 +80,7 @@ class BlueButton extends Component
         width:130,
         height:40,
         borderRadius:10,        
-}}>
+}} onPress = {this.displayAlert}>
  <Text> Sound Button </Text>
      </TouchableOpacity>
     );
@@ -107,7 +107,7 @@ class GreenButton extends Component
         width:130,
         height:40,
         borderRadius:10,        
-}}>
+}} onPress = {this.displayAlert} >
  <Text> Sound Button </Text>
      </TouchableOpacity>
     );
